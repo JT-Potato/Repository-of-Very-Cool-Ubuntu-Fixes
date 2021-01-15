@@ -5,6 +5,7 @@ echo git installed.
 echo Installing other dependencies
 sudo apt install curl xzcat cpio
 echo Dependencies installed.
+cd /tmp
 echo Building drivers...
 git clone https://github.com/patjak/facetimehd-firmware.git
 cd facetimehd-firmware
